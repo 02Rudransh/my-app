@@ -1,0 +1,89 @@
+.s_heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+}
+.big_4{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 405px;
+    padding-right:405px ;
+}
+.small_4{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.s_heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+.main_blocks_2{
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 50px;
+}
+.serv_blocks{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+    padding-bottom: 15px;
+}
+.s_box{
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    margin: 15px;
+    border-radius: 1px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #ffbd39;
+}
+.s_box h3{
+    display: flex;
+    justify-content: center;
+    line-height: 1.3;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+    color: #fff;
+}
+.s_desc h3{
+    padding: 10px;
+}
+.line{
+    border-bottom: 2px solid #ffbd39 ;
+    width: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.s_box:hover{
+    background-color: #ffbd39;
+    cursor: pointer;
+    transition: .5s;
+}
+.s_box:hover .icon{
+    color: white;
+}
+.s_box:hover h3{
+    color: black;
+}

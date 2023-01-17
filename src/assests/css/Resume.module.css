@@ -1,0 +1,111 @@
+.r_heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+}
+.big_3{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 405px;
+    padding-right:405px ;
+}
+.small_3{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.r_heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+.main_blocks{
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.blocks{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.fst{
+    padding-top: 50px;
+}
+.box{
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.date{
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+}
+.box h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: white;
+}
+.univ{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.mt_4{
+    margin-top: 2rem;
+    line-height: 2;
+    color: #999999;
+    letter-spacing: 1px;
+}
+.btn_div{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.button_3{
+    font-weight: 400;
+    padding-top: 80px;
+    padding-bottom:80px ;
+}
+.btn_primary_3{
+    background: #ffbd39;
+    color: #000000;
+}
+.btn_3{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.px_4_3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+.py_3_3 {
+    padding-bottom: 1.7rem;
+    padding-top: 1.7rem ;
+    text-decoration: none;
+}

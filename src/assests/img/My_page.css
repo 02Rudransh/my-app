@@ -1,0 +1,702 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: auto;
+    font-family: "Poppins", Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 280px;
+    position: fixed;
+    background: transparent;
+}
+nav .brand p{
+    float: left;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase; 
+    font-family: "Poppins", Arial, sans-serif;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    font-size: 17px;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", Arial, sans-serif;
+}
+nav li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #ffbd39;
+    padding-bottom: 3px;
+    transition: .2s ease-in-out;
+} 
+
+/*-------------------------Nav Bar over----------------------*/
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+.background-about {
+    background: url(bg_1.jpg);
+    background-position: right;
+    height: 90vh;
+    width: 69vw;
+    background-size: 85vh;
+    background-repeat: no-repeat;
+  }
+.text {
+    color: white;
+    padding-top: 180px;
+    font-family:"Poppins", Arial, sans-serif;
+    padding-left: 20px;
+}
+.subheading{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+    line-height:3.2;
+}
+.text h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.sub-2{
+    font-weight: 800;
+    color: #ffbd39;
+    line-height: 1.2;
+}
+.text h2{
+    font-size: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+}
+.button-1{
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.btn-primary-1{
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+}
+.btn-1{
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.btn-outline-white{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: #fff;
+}
+.px-4-1 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+.py-3-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+/* ---------------------Home Section over---------------- */
+
+/* --------------------About section start--------------- */
+
+.abt-main {
+    display: flex;
+    justify-content: center;
+    padding: 130px;
+    color:white;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.img{
+    width: 52%;
+    padding-top: 20px;
+}
+.img img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: right;
+    padding-left: 125px;
+}
+.container-1{
+    width: 60%;
+    padding-left:20px ;
+}
+.content{
+    color: white;
+    padding-top: 30px;
+}
+.big-2{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+}
+.small-2{
+    font-size: 50px;
+    font-weight: 770;
+    padding-left: 15px;
+    margin: 0;
+}
+.content p{
+    color: gray;
+    padding: 15px;
+    line-height: 1.7;
+    font-size: 1vw;
+    padding-top: 0 !important;
+}
+.about-info{
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.about-info li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+li span:first-child{
+    font-weight: 600;
+    color: #fff;
+    width: 130px;
+}
+li span:last-child{
+    color: gray;
+}
+.d-flex{
+    display: flex;
+}
+.section{
+    color: white;
+    padding: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.mb-4 span:first-child{
+    color: #ffbd39;
+    font-weight: 600;
+    font-size: 20px;
+}
+.mb-4 span:last-child{
+    font-weight: 400;
+    font-size: 20px;
+}
+.button-2{
+    font-weight: 400;
+    padding-top: 40px;
+}
+.btn-primary-2{
+    background: #ffbd39;
+    color: #000000;
+}
+.btn-2{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.px-4-2 {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    text-decoration: none;
+}
+.py-3-2 {
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem ;
+    text-decoration: none;
+}
+
+/* --------------------About section over---------------- */
+
+/* ------------------Resunme section start--------------- */
+.r-heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+}
+.big-3{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 405px;
+    padding-right:405px ;
+}
+.small-3{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.r-heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+.main-blocks{
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.blocks{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.fst{
+    padding-top: 50px;
+}
+.box{
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.date{
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+}
+.box h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: white;
+}
+.univ{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.mt-4{
+    margin-top: 2rem;
+    line-height: 2;
+    color: #999999;
+    letter-spacing: 1px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.button-3{
+    font-weight: 400;
+    padding-top: 80px;
+    padding-bottom:80px ;
+}
+.btn-primary-3{
+    background: #ffbd39;
+    color: #000000;
+}
+.btn-3{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.px-4-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+.py-3-3 {
+    padding-bottom: 1.7rem;
+    padding-top: 1.7rem ;
+    text-decoration: none;
+}
+
+/* --------------------Resunme section over---------------- */
+
+/* -------------------Services section start--------------- */
+
+.s-heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+}
+.big-4{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 405px;
+    padding-right:405px ;
+}
+.small-4{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.s-heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+.main-blocks-2{
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 50px;
+}
+.serv-blocks{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+    padding-bottom: 15px;
+}
+.s-box{
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    margin: 15px;
+    border-radius: 1px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #ffbd39;
+}
+.s-box h3{
+    display: flex;
+    justify-content: center;
+    line-height: 1.3;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+    color: #fff;
+}
+.s-desc h3{
+    padding: 10px;
+}
+.line{
+    border-bottom: 2px solid #ffbd39 ;
+    width: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.s-box:hover{
+    background-color: #ffbd39;
+    cursor: pointer;
+    transition: .5s;
+}
+.s-box:hover .icon{
+    color: white;
+}
+.s-box:hover h3{
+    color: black;
+}
+
+/* --------------------Services section over---------------- */
+
+/* -------------------My Blog section start----------------- */
+
+.m-heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+}
+.big-5{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 525px;
+    padding-right:525px ;
+}
+.small-5{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.m-heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+    margin: 35px;
+}
+.main-blocks-3{
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 50px;
+}
+.blog-blocks{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+    padding-bottom: 15px;
+}
+.m-box{
+    width: 50%;
+    margin: 15px;
+}
+.m-box img{
+    overflow: auto;
+    background-size: cover;
+    width: 100%;
+    height: 43vh;
+}
+.content-5{
+    color: white;
+}
+.dates-5{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 15px 0px; 
+}
+.p-5{
+    color: #ffbd39;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.p-5 a{
+    text-decoration: none;
+    color: #ffbd39;
+    margin-right: 0.5rem;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.p-5 a:hover{
+    cursor: pointer;
+}
+.s-5{
+    margin-right: 0.5rem;
+}
+.content-5 h3{
+    margin-top: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.content-5 h3:hover{
+    cursor: pointer;
+    color: #ffbd39;
+    transition: .5s;
+}
+.p-5-2{
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #999999;
+}
+.main-5-2{
+    display: flex;
+    margin-top: 200px;
+}
+.bg-img-2{
+    background-image: url(bg_1_N.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-size: 200vh;
+    background-repeat: no-repeat;
+}
+
+.b-blocks-2{
+    color: white;
+    display: flex;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px 265px;
+    margin-top: -88px;
+}
+.m-box-2{
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 3px;
+}
+.text-5{
+    text-align: center;
+}
+.text-5 h1{
+    color: #ffbd39;
+    line-height: 2;
+}
+.text-5 p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 10px;
+}
+.cont-center{
+    display: flex;
+    justify-content: center;
+    margin: 88px;
+}
+.cont-center h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2;
+} 
+.cont-center span{
+    color: #ffbd39;
+}
+.bg-img-desc p{
+    color: #999999;
+}
+.bg-img-desc{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 2;
+}
+.button-4{
+    padding: 30px;
+}
+.btn-primary-4{
+    background: #ffbd39;
+    color: #000000;
+}
+.btn-4{
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.py-3-4 {
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem ;
+    text-decoration: none;
+}
+.px-4-4 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+
+/* --------------------My Blog section over---------------- */
+
+/* -------------------Contact me section start----------------- */
+
+.c-heading{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+.big-6{
+    position: absolute;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+    padding-left: 400px;
+    padding-right:400px ;
+}
+.small-6{
+    font-size: 50px;
+    font-weight: 770;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.c-heading p{
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-size: 1vw;
+    margin: 34px;
+}
+.main-6-2{
+    color: white;
+    display: flex;
+    margin: 0px 250px;
+    padding: 70px 0px;
+    justify-content: center;
+}
+.c-box{
+    text-align: center;
+    margin-left: 330px;
+}
+.c-blocks{
+    width: 30%;
+    margin-left: 100px;
+}
+.circle{
+    background-color: rgb(26, 26, 26);
+    height: 100px;
+    width: 100px;
+    /* margin: 0; */
+    border-radius: 50%;
+    padding: 38px;
+    color:#ffbd39 ;
+}
