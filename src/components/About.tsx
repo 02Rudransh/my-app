@@ -7,7 +7,7 @@ function About() {
     <>
     <div className={classes.abt_main}>
         <div className={classes.imge}>
-            <img src="../assests/img/bg_1.2.png" alt="" />
+        <img alt='{pic3}' src={pic} />
         </div>    
         <div className={classes.container_1}>
             <div className={classes.content}>
@@ -30,7 +30,7 @@ function About() {
                     <span>Projects complete</span>
                 </p>
                 <p className={classes.button_2}>
-                    <a href="#" className={`${classes.btn_2} ${classes.btn_primary_2} ${classes.py_3_2} ${classes.px_4_2}`}>Download CV</a>
+                    <a href="/" className={`${classes.btn_2} ${classes.btn_primary_2} ${classes.py_3_2} ${classes.px_4_2}`}>Download CV</a>
                 </p>
             </div>
         </div>

@@ -1,5 +1,8 @@
 import React from 'react'
 import classes from "../assests/css/My_Blog.module.css"
+import pic1 from "../assests/img/image_1.jpg"
+import pic2 from "../assests/img/image_2.jpg"
+import pic3 from "../assests/img/image_3.jpg"
 
 function My_Blog() {
   return (
@@ -15,13 +18,13 @@ function My_Blog() {
     <div className={classes.main_blocks_3}>
         <div className={classes.blog_blocks}>
             <div className={classes.my_box}>
-               <img src="../assests/img/image_1.jpg" alt="" />
+               <img alt='{pic1}' src={pic1}/>
                 <div className={classes.content_5}>
                     <div className={classes.dates_5}>
                         <p className={classes.p_5}>
                          <span className={classes.s_5}>June 21, 2019</span>
-                             <a href="">Admin</a>
-                             <a href="">
+                             <a href="/">Admin</a>
+                             <a href="/">
                              <span>&</span>
                              3
                              </a>
@@ -37,13 +40,13 @@ function My_Blog() {
                 </div>
             </div>
             <div className={classes.my_box}>
-                <img src="../assests/img/image_2.jpg" alt="" />
+                <img alt='{pic2}' src={pic2}/>
                 <div className={classes.content_5}>
                     <div className={classes.dates_5}>
                         <p className={classes.p_5}>
                          <span className={classes.s_5}>June 21, 2019</span>
-                             <a href="">Admin</a>
-                             <a href="">
+                             <a href="/">Admin</a>
+                             <a href="/">
                              <span>&</span>
                              3
                              </a>
@@ -59,13 +62,13 @@ function My_Blog() {
                 </div>
             </div>
             <div className={classes.my_box}>
-            <img src="../assests/img/image_3.jpg" alt="" />
+            <img alt='{pic3}' src={pic3}/>
                 <div className={classes.content_5}>
                     <div className={classes.dates_5}>
                         <p className={classes.p_5}>
                          <span className={classes.s_5}>June 21, 2019</span>
-                             <a href="">Admin</a>
-                             <a href="">
+                             <a href="/">Admin</a>
+                             <a href="/">
                              <span>&</span>
                              3
                              </a>
@@ -137,7 +140,7 @@ function My_Blog() {
                         necessary regelialia.
                     </p>
                     <p className={classes.button_4}>
-                        <a href="#" className={`${classes.btn_4} ${classes.btn_primary_4} ${classes.py_3_4} ${classes.px_4_4}`}>Hire Me</a>
+                        <a href="/" className={`${classes.btn_4} ${classes.btn_primary_4} ${classes.py_3_4} ${classes.px_4_4}`}>Hire Me</a>
                     </p>
                 </div>
             </div>
